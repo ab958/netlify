@@ -1,8 +1,8 @@
 const axios = require("axios");
 
 exports.handler = async function (event, context) {
-  const data = await axios("https://jsonplaceholder.typicode.com/posts");
-  console.log(context, "wahab");
+  // const data = await axios("https://jsonplaceholder.typicode.com/posts");
+  // console.log(context, "wahab");
 
   if (event.httpMethod == "GET") {
     return {
